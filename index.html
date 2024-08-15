@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+    function sortDrinkbyPrice(drinks) {
+      return drinks.sort((a, b) => a.price - b.price);
+    }
+
+    const drinks = [
+      {name: "lemonade", price: 50},
+      {name: "lime", price: 10}
+    ];
+
+    console.log(sortDrinkbyPrice(drinks));
+  </script>
+</body>
+</html>
